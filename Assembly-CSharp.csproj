@@ -60,9 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Source\CommandPattern\ClickInputReader.cs" />
+    <Compile Include="Assets\Source\CommandPattern\ClickToMoveEntity.cs" />
     <Compile Include="Assets\Source\CommandPattern\Command.cs" />
     <Compile Include="Assets\Source\CommandPattern\CommandProcessor.cs" />
     <Compile Include="Assets\Source\CommandPattern\Commands\MoveCommand.cs" />
+    <Compile Include="Assets\Source\CommandPattern\Commands\MoveToCommand.cs" />
     <Compile Include="Assets\Source\CommandPattern\Commands\ScaleCommand.cs" />
     <Compile Include="Assets\Source\CommandPattern\Entity.cs" />
     <Compile Include="Assets\Source\CommandPattern\IEntity.cs" />

@@ -36,6 +36,11 @@ namespace CommandPattern
                 _commandProcessor.ExecuteCommand(new ScaleCommand(this, scaleDirection));
             }
         }
+
+        public void MoveFromTo(Vector3 startPosition, Vector3 endPosition)
+        {
+
+        }
     }
 
 }

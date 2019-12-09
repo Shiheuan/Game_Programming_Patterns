@@ -15,6 +15,7 @@ namespace CommandPattern
             _commands.Add(command);
             command.Execute();
             _currentCommandIndex = _commands.Count - 1;
+            print(_currentCommandIndex);
         }
 
         public void Undo()
