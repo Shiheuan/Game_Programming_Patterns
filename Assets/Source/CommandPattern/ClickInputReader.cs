@@ -4,6 +4,12 @@ namespace CommandPattern
 {
     public class ClickInputReader : MonoBehaviour
     {
+        private Collider _collider;
+
+        private void Awake()
+        {
+            _collider = GetComponent<Collider>();
+        }
         public Vector3? GetInputPosition()
         {
             if (Input.GetMouseButtonDown(0))
@@ -12,6 +18,7 @@ namespace CommandPattern
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(ray, out hitInfo))
                 {
+                    if (hitInfo.collider == _collider) return null;
                     return hitInfo.point;
                 }
             }
