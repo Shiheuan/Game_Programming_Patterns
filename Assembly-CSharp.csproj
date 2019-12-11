@@ -60,16 +60,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Source\CommandPattern\ClickInputReader.cs" />
-    <Compile Include="Assets\Source\CommandPattern\ClickToMoveEntity.cs" />
-    <Compile Include="Assets\Source\CommandPattern\Command.cs" />
-    <Compile Include="Assets\Source\CommandPattern\CommandProcessor.cs" />
-    <Compile Include="Assets\Source\CommandPattern\Commands\MoveCommand.cs" />
-    <Compile Include="Assets\Source\CommandPattern\Commands\MoveToCommand.cs" />
-    <Compile Include="Assets\Source\CommandPattern\Commands\ScaleCommand.cs" />
-    <Compile Include="Assets\Source\CommandPattern\Entity.cs" />
-    <Compile Include="Assets\Source\CommandPattern\IEntity.cs" />
-    <Compile Include="Assets\Source\CommandPattern\InputReader.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\ClickInputReader.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\ClickToMoveEntity.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\Command.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\CommandProcessor.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\Commands\MoveCommand.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\Commands\MoveToCommand.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\Commands\ScaleCommand.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\Entity.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\IEntity.cs" />
+    <Compile Include="Assets\Patterns\CommandPattern\Source\InputReader.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/shiyuan/gitdir/LudumDare#0/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
