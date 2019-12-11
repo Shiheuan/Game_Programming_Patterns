@@ -71,8 +71,10 @@
     <Compile Include="Assets\Patterns\CommandPattern\Source\IEntity.cs" />
     <Compile Include="Assets\Patterns\CommandPattern\Source\InputReader.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\AchievementSystem.cs" />
+    <Compile Include="Assets\Patterns\ObserverPattern\Source\AchievementSystemWithEvents.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\Observer.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\PointOfInterest.cs" />
+    <Compile Include="Assets\Patterns\ObserverPattern\Source\PointOfInterestWithEvents.cs" />
     <Compile Include="Assets\Source\Misc\Controller.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/shiyuan/gitdir/LudumDare#0/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
