@@ -8,7 +8,7 @@ namespace ObserverPattern
         public static event Action<PointOfInterestWithEvents> OnPointOfInterestEntered;
 
         [SerializeField]
-        private string _poiName;
+        private string _poiName = "";
 
         public string PoiName { get { return _poiName;} }
 

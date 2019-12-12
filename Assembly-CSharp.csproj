@@ -75,6 +75,21 @@
     <Compile Include="Assets\Patterns\ObserverPattern\Source\Observer.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\PointOfInterest.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\PointOfInterestWithEvents.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v0\BigSword.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v0\Sword.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v0\Target.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\Axe.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\BigSword.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\MegaSword.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\Sword.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\Target.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\Weapon.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v1\WeaponTester.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v2\PersonController.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v2\Target.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v2\Weapon.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v2\WeaponData.cs" />
+    <Compile Include="Assets\Patterns\Prototype&amp;TypeObjectPattern\Source\v2\WeaponTester.cs" />
     <Compile Include="Assets\Source\Misc\Controller.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/shiyuan/gitdir/LudumDare#0/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
