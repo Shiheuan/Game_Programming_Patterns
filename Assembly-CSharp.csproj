@@ -70,6 +70,10 @@
     <Compile Include="Assets\Patterns\CommandPattern\Source\Entity.cs" />
     <Compile Include="Assets\Patterns\CommandPattern\Source\IEntity.cs" />
     <Compile Include="Assets\Patterns\CommandPattern\Source\InputReader.cs" />
+    <Compile Include="Assets\Patterns\HumbleObjectPattern\Source\origin\Bird.cs" />
+    <Compile Include="Assets\Patterns\HumbleObjectPattern\Source\split\BirdController.cs" />
+    <Compile Include="Assets\Patterns\HumbleObjectPattern\Source\split\BirdSplit.cs" />
+    <Compile Include="Assets\Patterns\HumbleObjectPattern\Source\split\IBird.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\AchievementSystem.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\AchievementSystemWithEvents.cs" />
     <Compile Include="Assets\Patterns\ObserverPattern\Source\Observer.cs" />
